@@ -145,12 +145,13 @@ style = "bg:sapphire"
 format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
 
 [conda]
-symbol = "  "
+symbol = ""
 style = "fg:crust bg:sapphire"
 format = '[$symbol$environment ]($style)'
 ignore_base = false
 
 [pixi]
+symbol = "󰆧"
 style = "bg:sapphire"
 format = '[[ $symbol( $version)( $environment) ](fg:crust bg:bg:sapphire)]($style)'
 
